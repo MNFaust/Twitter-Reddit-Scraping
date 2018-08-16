@@ -17,16 +17,16 @@ SUBREDDITS = ["netsec", "hacking", "oscp", "netsecstudents", "pentesting", "ITCa
 
 def twilioCon():                                                        # Start a connection to our Twilio service API
     global client
-    ACCOUNT_SID = 'ACce533e54db31f9f17914f14c16feac4c'
-    AUTH_TOKEN = '70d825cae204e73a993772d96f946f28'
+    ACCOUNT_SID = ''
+    AUTH_TOKEN = ''
     client = Client(ACCOUNT_SID, AUTH_TOKEN)
 
 def redditCon():                                                        # Start a connection to the Reddit API
     # Reddit Variables
-    CLIENT_ID = "ElepuaXG73hgQA"
-    SECRETKEY = "ad9TyIkbd0mwW98dcTLtJgNp6hA"
-    USER = "HackerBot-1"
-    PASS = "anon976431"
+    CLIENT_ID = ""
+    SECRETKEY = ""
+    USER = "-1"
+    PASS = ""
 
     global reddit
     reddit = praw.Reddit(client_id=CLIENT_ID,
@@ -53,10 +53,10 @@ sub_text VARCHAR(3000) NOT NULL
 
 def twitterCon():
     global twit
-    twit = twitter.Api(consumer_key='PAHHq5yY2LB747x5yMpekbuNj',
-                      consumer_secret='Ml97Vor60nq4Kxnyyg2FLNOKYMvYKn6N51dunX2AZzP0XZ9hup',
-                      access_token_key='878406758124982272-sP53TABNpLuAX0JTk1zJBhZnPyHhpM9',
-                      access_token_secret='vz7wCafQizlqZcsCna95Q4lB6iWXfribOgTpbkFBo98XA')
+    twit = twitter.Api(consumer_key='',
+                      consumer_secret='',
+                      access_token_key='',
+                      access_token_secret='')
 
 
 # -------------------------------------------------------------------------------#
