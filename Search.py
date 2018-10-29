@@ -1,3 +1,7 @@
+#==========================#
+# by: @jfaust0             #
+#==========================#
+
 import praw
 import sqlite3
 import twitter
