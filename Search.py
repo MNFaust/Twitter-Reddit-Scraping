@@ -181,8 +181,8 @@ def twitterSearch():
 
 def sendText(message):
     client.messages.create(body=message,
-                           from_='+17068738753',
-                           to='+15072025586')
+                           from_='+NUMBER',
+                           to='+NUMBER')
     time.sleep(5)  # Sleep for 5 seconds after message send.
 
 def sqlInsert(data):
